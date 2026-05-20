@@ -1,10 +1,22 @@
 # Hi, I'm Brent Dillard
 
-I'm a technical support professional and self-directed software developer focused on C programming, Raylib, Godot, systems-oriented learning, and small reusable tools.
+I'm a technical support professional and self-directed software developer focused on C programming, systems-oriented learning, and small reusable tools such as libraries with helper functions. I like to work in different environments, so I develop on both Linux and Windows. I am an aspiring video game developer with a few prototype games that I am working on currently. I have always had a love for numbers and rocks that we shocked with electricity and taught to count.
 
-My background combines customer-facing troubleshooting, documentation, escalation management, and hands-on programming. I like building projects that teach me how things work underneath the surface: memory, files, build systems, linking, game loops, UI systems, collision logic, and project structure.
+My background combines customer-facing troubleshooting, documentation, escalation management, and hands-on programming. I spent 20 years in the hospitality industry, working deeply with a combination of training and coaching staff daily and monthly budgets, P&L statements other accounting practices. This leads me to building projects that teach me how things work underneath the surface: memory management , file I/O, robust reusable build systems, library integration and linking, exciting game loops, clean UI systems, and project structure.
 
-I currently spend most of my development time working with C, Raylib, Godot, JavaScript, Git/GitHub, Linux/WSL, MSYS2, Make, GCC, and full-stack web tools.
+I currently spend most of my development time working with C, Raylib, Godot, Blender, GIMP, numerous open-source multimedia tools, and various other full-stack web dev tools.
+
+My Philosophy
+
+I believe that if someone cannot understand a concept, the problem is often in how it is being taught, not in the learner themselves.
+
+My experience learning programming and computer hardware has shown me that there is no shortage of information in computer science. What often feels missing is an intermediate layer of developers and problem-solvers who can translate dense technical material into something practical and approachable for non-technical people.
+
+Most people are intimidated by technology they do not understand. Many people use computers and smartphones every day without understanding basic concepts such as file systems, memory, or how software actually behaves underneath the interface. I think that gap matters.
+
+My goal is to understand systems deeply enough that I can explain them clearly to almost anyone. If a person can walk away understanding a concept well enough to explain it to someone else, then the explanation was successful.
+
+That is the standard I try to build toward in both my programming work and my documentation.
 
 ## Current Focus
 
@@ -12,7 +24,7 @@ I currently spend most of my development time working with C, Raylib, Godot, Jav
 - Developing Raylib game prototypes and UI experiments
 - Moving game systems from raw C/Raylib prototypes into Godot projects
 - Practicing clean project structure with headers, source files, Makefiles, and documentation
-- Improving Git/GitHub workflow, README quality, and long-term project organization
+- Improving Git/GitHub workflow, README quality, and long-term project organization and consistent documentation
 - Building practical web app prototypes with Next.js, React, Prisma, Supabase, Cloudinary, and Clerk
 
 ## Technical Skills
@@ -39,12 +51,12 @@ I currently spend most of my development time working with C, Raylib, Godot, Jav
 ### Game Development
 
 - Raylib
-- Godot
+- Godot and Unity
 - Blender
-- 2D game systems
+- 2D/3D game systems
 - Collision logic
 - UI primitives
-- Sprite workflows
+- Sprite and animation workflows
 - Simulation prototypes
 
 ### Web Development
@@ -87,13 +99,13 @@ A reusable personal C utility library built around small, practical helpers for 
 - Public header/source organization
 - Static library builds with `Make`, `GCC`, and `ar`
 
-This project has helped me get more comfortable with compiling reusable C code, installing headers, linking against static libraries, and documenting how a library should be consumed by other projects.
+This project has been the most fruitful so far. Learning how to package into a library archive to be easily shared across devices and documenting the process was great experience. I often use the math and clamp functions to speed game prototyping
 
 ---
 
 ### ABG UI Library
 
-A lightweight Raylib-based UI helper library for my C/Raylib projects.
+A lightweight Raylib-based ABG C Lib UI helper library for my C/Raylib projects.
 
 **Focus areas:**
 
@@ -106,7 +118,7 @@ A lightweight Raylib-based UI helper library for my C/Raylib projects.
 - Raylib UI primitives
 - Downstream linking with `-labg_ui`
 
-This project grew out of repeated UI code I found myself writing across experiments. The goal is to keep the API small, understandable, and useful for simple game tools and prototypes.
+This project grew out of repeated UI code I found myself writing across experiments. This was also a really good learning experience as I was protoyping a Drug Wars clone style game with a Windows 98 theme and this helped me with creating the raised + sunked window style to create depth. The goal is to keep the API small, understandable, and useful for simple game tools and prototypes.
 
 ---
 
@@ -126,7 +138,7 @@ An educational Unix `cp`-style file-copy utility written in C.
 - Argument validation
 - File creation/truncation behavior
 
-This project was built to reinforce low-level systems programming fundamentals and understand what common command-line tools are doing under the hood.
+This project was built to reinforce low-level systems programming fundamentals and understand what common command-line tools are doing under the hood. This was a great experiment and showed a lot of hidden functionality that is often taken for granted by an average user.
 
 ---
 
@@ -141,8 +153,8 @@ A collection of small C/Raylib experiments focused on game loops, visual feedbac
 - Boundary steering behavior
 - Pheromone/grid planning
 - Inventory system experiments
+- Procedural generation for maps
 - UI overlays
-- Top-down game loops
 - Shooting and harvesting mechanics
 - Floating feedback text
 - Market/trading system prototypes
@@ -153,7 +165,7 @@ These projects are where I practice turning isolated programming concepts into w
 
 ### Debt Runner
 
-A C/Raylib game prototype with a Windows 98-inspired interface.
+A C/Raylib Drug Wars clone game prototype with a Windows 98-inspired interface.
 
 **Focus areas:**
 
@@ -167,7 +179,7 @@ A C/Raylib game prototype with a Windows 98-inspired interface.
 - Button/list/status bar primitives
 - Font and spacing management
 
-This project helped me think more carefully about UI consistency, screen management, and data organization in a C game project.
+This project helped me think more carefully about UI consistency, state management, and data organization in a C game project. This is my most developed project and will probably be finished and release first (for FREE).
 
 ---
 
@@ -183,7 +195,7 @@ A top-down creature capture, processing, and trading game concept originally pro
 - Build progression around better tools, inventory, hotbar upgrades, and planet exploration
 - Use pseudo-3D/isometric visual ideas inspired by management/survival games
 
-This is one of my larger ongoing design projects and has helped me think through systems such as inventory, harvesting, trading, material rarity, UI feedback, and world generation.
+This is one of my larger ongoing design projects and has helped me think through systems such as inventory, harvesting, trading, material rarity, UI feedback, and world generation. This is my on going passion project that I would like to develop fully, market, and sell. 
 
 ---
 
@@ -212,7 +224,7 @@ A full-stack web app prototype for organizing and sharing family photos.
 - Recently uploaded views
 - Modal image previews
 
-This project focuses on building a practical app for non-technical users, with readable UI, simple workflows, and long-term organization of family photos.
+This project focuses on building a practical app for non-technical users, with readable UI, simple workflows, and long-term organization of family photos. This site grew out of need for an older family member to have an easy way to upload photos, CRUD collections of photos adding details, with a clean UI designed for accessibility.  
 
 ---
 
@@ -261,20 +273,20 @@ That approach has helped me move between C, Raylib, Godot, JavaScript, and full-
 
 ## Professional Background
 
-Before focusing heavily on programming projects, I worked in hospitatlity (including sous chef), technical support, escalation management, customer service, and hospitality management.
+Before focusing heavily on programming projects, I worked in hospitatlity holding almost every role from bus boy/dishwasher to General Manager. I've also worked in technical support, implementation specialist, escalation management, and various customer service roles handling face-to-face interaction with customers.
 
 That experience gave me a strong foundation in:
 
 - Troubleshooting
 - Customer communication
-- Training/Coaching
+- Training/Coaching staff
 - Documentation
 - Escalation handling
 - Process improvement
 - Explaining technical issues clearly
 - Working with both technical and non-technical users
 
-I try to bring that same clarity into my code, project structure, and documentation.
+I try to bring that same clarity into my code, project structure, and documentation. I tend to over docment. 
 
 ---
 
