@@ -1,337 +1,274 @@
 # Hi, I'm Brent Dillard
 
-I'm a technical support professional and self-directed software developer focused on C programming, systems-oriented learning, and small reusable tools such as libraries with helper functions. I like to work in different environments, so I develop on both Linux and Windows. I am an aspiring video game developer with a few prototype games that I am working on currently. I have always had a love for numbers and rocks that we shocked with electricity and taught to count.
+I am a software developer, technical support professional, hospitality expert, and founder of **Bits & Bytes Bureau**.
 
-My background combines customer-facing troubleshooting, documentation, escalation management, and hands-on programming. I spent 20 years in the hospitality industry, working deeply with a combination of training and coaching staff daily and monthly budgets, P&L statements other accounting practices. This leads me to building projects that teach me how things work underneath the surface: memory management , file I/O, robust reusable build systems, library integration and linking, exciting game loops, clean UI systems, and project structure.
+I build practical websites, applications, games, and lower-level programming tools. My work ranges from production content platforms and full-stack application prototypes to reusable C libraries, game systems, and technical experiments.
 
-I currently spend most of my development time working with C, Raylib, Godot, Blender, GIMP, numerous open-source multimedia tools, and various other full-stack web dev tools.
+I generally work across the full project lifecycle:
 
-My Philosophy
+- Requirements and project planning
+- Information architecture and data modeling
+- UI and interaction design
+- Frontend and backend implementation
+- Accessibility and responsive design
+- Testing, deployment, and maintenance
+- Technical documentation and user guidance
 
-I believe that if someone cannot understand a concept, the problem is often in how it is being taught, not in the learner themselves.
+My goal is not only to make software function, but to make its structure, behavior, and purpose understandable.
 
-My experience learning programming and computer hardware has shown me that there is no shortage of information in computer science. What often feels missing is an intermediate layer of developers and problem-solvers who can translate dense technical material into something practical and approachable for non-technical people.
+---
 
-Most people are intimidated by technology they do not understand. Many people use computers and smartphones every day without understanding basic concepts such as file systems, memory, or how software actually behaves underneath the interface. I think that gap matters.
+## Current Work
 
-My goal is to understand systems deeply enough that I can explain them clearly to almost anyone. If a person can walk away understanding a concept well enough to explain it to someone else, then the explanation was successful.
+### Another Budget Cook
 
-That is the standard I try to build toward in both my programming work and my documentation.
+[Another Budget Cook](https://anotherbudgetcook.com) is a live cooking education platform that translates professional kitchen judgment into practical instruction for ordinary home kitchens and limited grocery budgets.
 
-## Current Focus
+I designed, developed, deployed, and continue to operate the site. The work includes:
 
-- Building reusable C libraries and learning lower-level programming patterns
-- Developing Raylib game prototypes and UI experiments
-- Moving game systems from raw C/Raylib prototypes into Godot projects
-- Practicing clean project structure with headers, source files, Makefiles, and documentation
-- Improving Git/GitHub workflow, README quality, and long-term project organization and consistent documentation
-- Building practical web app prototypes with Next.js, React, Prisma, Supabase, Cloudinary, and Clerk
+- Content architecture and custom content validation
+- Static site generation with Next.js
+- Responsive and accessible interface development
+- Search, structured metadata, and technical SEO
+- Editorial workflows and internal linking
+- Cloudflare deployment and domain configuration
+- Analytics, indexing, and ongoing performance improvements
 
-## Technical Skills
+The platform focuses on cooking fundamentals, grocery budgeting, equipment, troubleshooting, and learning to make decisions without depending on a recipe Rolodex or expensive kitchen equipment.
 
-### Programming
+### Bits & Bytes Bureau
+
+**Bits & Bytes Bureau** is my developing technology services business for individuals, small organizations, and local or remote small businesses.
+
+The business is being built around practical, understandable technology services, including:
+
+- Website design and development
+- Content and ecommerce websites
+- Website maintenance and technical support
+- Computer troubleshooting and consultation
+- Custom computer planning and assembly
+- Documentation and small-business systems
+- Hosting guidance and ongoing technical assistance
+
+The operating principle is straightforward: clients should understand what they own, how it works, and what their options are. New websites are designed toward **WCAG 2.2 Level AA** accessibility, maintainable project structures, and customer ownership without unnecessary platform lock-in.
+
+I am currently developing the business website, service structure, technical standards, documentation, and internal operating processes. This is a work in progress that I plan to launch in 2027.
+
+---
+
+## Project Areas
+
+Rather than treating every repository as an isolated project, I organize my work into several broader areas.
+
+### Websites and Content Platforms
+
+I build websites that need more than a collection of static pages. These projects often include structured content, reusable components, editorial workflows, search, metadata, accessibility requirements, and long-term maintenance planning.
+
+My work in this area includes:
+
+- Content and route architecture
+- Reusable component systems
+- Responsive UI implementation
+- Accessible navigation and page structure
+- Content schemas and validation
+- Search and content discovery
+- SEO metadata and structured data
+- Static and server-rendered deployment
+- Domain, DNS, analytics, and deployment configuration
+- Documentation for future maintenance
+
+Representative work includes **Another Budget Cook**, the developing **Bits & Bytes Bureau** website, the planned **Another Budget Gamer** gaming knowledge platform, and earlier website exercises and prototypes.
+
+---
+
+### Applications and Business Tools
+
+I develop application prototypes around real workflows rather than isolated interface demonstrations.
+
+These projects include administrative dashboards, content management, authentication, database-backed records, file organization, inquiry handling, and tools intended for non-technical users.
+
+My responsibilities commonly include:
+
+- Translating a workflow into application requirements
+- Database and entity design
+- CRUD operations and validation
+- Authentication and protected routes
+- Administrative interfaces
+- File and image management
+- Status and workflow tracking
+- Error handling and user feedback
+- Deployment planning
+- Setup and handoff documentation
+
+Examples include a full-stack editorial clothing platform, a family photo organization application, small-business CRM experiments, calculators, and workflow utilities.
+
+The public [Posh Mit](https://github.com/AnotherBudgetGamer/posh-mit) prototype demonstrates this work through a Next.js application with editorial pages, collection and garment records, an administrative dashboard, inquiry management, Prisma, and SQLite.
+
+---
+
+### Games, Simulations, and Interactive Systems
+
+My game-development work focuses on systems-heavy games, simulations, and prototypes where several mechanics interact.
+
+I use small projects to test individual mechanics before integrating them into larger designs. This allows me to examine how systems behave, identify reusable patterns, and revise the design before a project becomes difficult to change.
+
+Areas I work with include:
+
+- Game loops and state management
+- Inventory and resource systems
+- Trading and economic simulations
+- Progression and unlock systems
+- Procedural map generation
+- Collision and movement
+- UI state and visual feedback
+- Notifications and event escalation
+- Service and dependency simulations
+- Save-data and project structure
+- Design documentation and technical planning
+
+My current game concepts include a server-administration game built around physical rack management and production outages , an incremental logistics and factory game, and larger resource-management and trading concepts.
+
+Public C/Raylib experiments include:
+
+- [Map Generator](https://github.com/AnotherBudgetGamer/map-gen)
+- [Monsteroids](https://github.com/AnotherBudgetGamer/monsteroids)
+- [Good Fast Cheap Slider](https://github.com/AnotherBudgetGamer/good-fast-cheap-slider)
+- [Bug, Patch, Feature](https://github.com/AnotherBudgetGamer/bug-patch-feature)
+- [Text Adventure](https://github.com/AnotherBudgetGamer/text-adventure)
+
+I currently use both **C with Raylib** and **Godot with GDScript**, depending on whether the project is intended to explore lower-level mechanics or develop into a larger game.
+
+---
+
+### C Libraries, Utilities, and Systems Programming
+
+My C work is focused on understanding the mechanics that higher-level tools often hide.
+
+I build small libraries and utilities to practice:
+
+- Header and source separation
+- API design
+- Static library creation
+- Compilation and linking
+- Cross-project dependencies
+- File descriptors and POSIX file I/O
+- Memory and data management
+- Error handling
+- Build automation
+- Linux, WSL, and Windows development workflows
+
+The [ABG C Library](https://github.com/AnotherBudgetGamer/abg-clib) contains reusable math, randomization, clamping, interpolation, remapping, comparison, and utility functions.
+
+The [ABG UI Library](https://github.com/AnotherBudgetGamer/abg-ui) builds on that foundation with lightweight Raylib-compatible UI primitives, rectangle helpers, collision checks, panels, buttons, and drawing wrappers.
+
+Other systems projects, such as [abg-cp](https://github.com/AnotherBudgetGamer/abg-cp), explore how common command-line utilities work through POSIX system calls and explicit error handling.
+
+These projects also serve as shared infrastructure for my game prototypes and interactive experiments.
+
+---
+
+## Technologies
+
+### Languages
 
 - C
+- TypeScript
 - JavaScript
 - GDScript
-- SQL basics
-- POSIX file I/O
-- Modular header/source organization
+- HTML and CSS
+- SQL
 
-### C Tooling
+### Web and Applications
 
-- GCC
-- Make
-- Static libraries
-- Linker flags
-- Git/GitHub
-- Linux/WSL workflows
-- MSYS2/Windows workflows
+- Next.js
+- React
+- Astro
+- Node.js
+- Tailwind CSS
+- Prisma
+- SQLite
+- PostgreSQL and Supabase
+- Static site generation
+- REST-style application architecture
 
-### Game Development
+### Games and Graphics
 
 - Raylib
-- Godot and Unity
+- Godot
 - Blender
-- 2D/3D game systems
-- Collision logic
-- UI primitives
-- Sprite and animation workflows
-- Simulation prototypes
+- GIMP
+- 2D and 3D prototyping
+- Procedural generation
+- Custom UI systems
 
-### Web Development
+### Development and Deployment
 
-- Next.js
-- React
-- Tailwind CSS
-- Prisma
-- Supabase/Postgres
-- Cloudinary
-- Clerk
-
-### Support / Operations
-
-- Zendesk
-- Salesforce
-- ServiceNow
-- Freshdesk
-- Jira
-- Confluence
-- Microsoft 365
-- Google Workspace
----
-## Featured Projects
-
-### ABG C Library
-
-A reusable personal C utility library built around small, practical helpers for C/Raylib projects.
-
-**Focus areas:**
-
-- Math helpers
-- Random helpers
-- Clamping
-- Interpolation
-- Value remapping
-- Min/max helpers
-- Float comparison
-- Safe division
-- Public header/source organization
-- Static library builds with `Make`, `GCC`, and `ar`
-
-This project has been the most fruitful so far. Learning how to package into a library archive to be easily shared across devices and documenting the process was great experience. I often use the math and clamp functions to speed game prototyping
+- Git and GitHub
+- GitHub Actions
+- GCC
+- Make
+- Linux
+- WSL
+- Windows
+- Cloudflare Pages
+- VS Code
 
 ---
 
-### ABG UI Library
+## How I Work
 
-A lightweight Raylib-based ABG C Lib UI helper library for my C/Raylib projects.
+I tend to approach projects documentation-first and implementation-focused.
 
-**Focus areas:**
+Before building, I try to determine:
 
-- Rectangle helpers
-- Panels
-- Buttons
-- Collision checks
-- Rectangle movement/insetting
-- Drawing wrappers
-- Raylib UI primitives
-- Downstream linking with `-labg_ui`
+1. Who will use the project?
+2. What problem are they actually trying to solve?
+3. What information or state must the project manage?
+4. Which features are essential?
+5. How will the project be tested, deployed, maintained, and explained?
 
-This project grew out of repeated UI code I found myself writing across experiments. This was also a really good learning experience as I was protoyping a Drug Wars clone style game with a Windows 98 theme and this helped me with creating the raised + sunked window style to create depth. The goal is to keep the API small, understandable, and useful for simple game tools and prototypes.
+I prefer systems that are:
 
----
+- Understandable enough to inspect
+- Modular enough to extend
+- Documented enough to revisit
+- Accessible to the people expected to use them
+- Practical enough to solve a real problem
+- Honest about their current limitations
 
-### abg-cp
-
-An educational Unix `cp`-style file-copy utility written in C.
-
-**Focus areas:**
-
-- `open`
-- `read`
-- `write`
-- `close`
-- Fixed-size buffered copying
-- File descriptor validation
-- Error handling with `perror`
-- Argument validation
-- File creation/truncation behavior
-
-This project was built to reinforce low-level systems programming fundamentals and understand what common command-line tools are doing under the hood. This was a great experiment and showed a lot of hidden functionality that is often taken for granted by an average user.
-
----
-
-### C/Raylib Simulations and Game Prototypes
-
-A collection of small C/Raylib experiments focused on game loops, visual feedback, collision, resource systems, and simple simulations.
-
-**Examples include:**
-
-- Ant-foraging simulation logic
-- Resource-node detection
-- Boundary steering behavior
-- Pheromone/grid planning
-- Inventory system experiments
-- Procedural generation for maps
-- UI overlays
-- Shooting and harvesting mechanics
-- Floating feedback text
-- Market/trading system prototypes
-
-These projects are where I practice turning isolated programming concepts into working gameplay systems.
-
----
-
-### Debt Runner
-
-A C/Raylib Drug Wars clone game prototype with a Windows 98-inspired interface.
-
-**Focus areas:**
-
-- Game state management
-- Degree/class selection
-- Player stats
-- Inventory slots
-- Market screens
-- Travel/status screens
-- Win98-style UI windows
-- Button/list/status bar primitives
-- Font and spacing management
-
-This project helped me think more carefully about UI consistency, state management, and data organization in a C game project. This is my most developed project and will probably be finished and release first (for FREE).
-
----
-
-### Flug That!
-
-A top-down creature capture, processing, and trading game concept originally prototyped in C/Raylib and later explored through Godot.
-
-**Core ideas:**
-
-- Capture tiered creatures called flugs
-- Process creatures into materials/resources
-- Trade resources locally or through an orbital exchange
-- Build progression around better tools, inventory, hotbar upgrades, and planet exploration
-- Use pseudo-3D/isometric visual ideas inspired by management/survival games
-
-This is one of my larger ongoing design projects and has helped me think through systems such as inventory, harvesting, trading, material rarity, UI feedback, and world generation. This is my on going passion project that I would like to develop fully, market, and sell. 
-
----
-
-### Family Photo Website Prototype
-
-A full-stack web app prototype for organizing and sharing family photos.
-
-**Stack:**
-
-- Next.js
-- React
-- Tailwind CSS
-- Prisma
-- Supabase/Postgres
-- Cloudinary
-- Clerk
-
-**Planned features:**
-
-- Authenticated family access
-- Multi-photo uploads
-- Batch metadata entry
-- People tagging
-- Collection organization
-- Photo browsing
-- Recently uploaded views
-- Modal image previews
-
-This project focuses on building a practical app for non-technical users, with readable UI, simple workflows, and long-term organization of family photos. This site grew out of need for an older family member to have an easy way to upload photos, CRUD collections of photos adding details, with a clean UI designed for accessibility.  
-
----
-
-## How I Like to Build
-
-I tend to work documentation-first and implementation-focused.
-
-I like projects that are:
-
-- Small enough to understand
-- Structured enough to reuse
-- Documented enough to return to later
-- Practical enough to teach a real programming concept
-
-In C projects, I care about:
-
-- Clear header/source separation
-- Explicit function prototypes
-- Consistent naming
-- Understandable build steps
-- Clean Makefiles
-- Correct linker flags
-- Minimal hidden behavior
-- README files that explain how to actually build and use the project
-
----
-
-## Learning Philosophy
-
-I learn best by building small projects that expose the underlying mechanics.
-
-Instead of only using high-level abstractions, I like to understand:
-
-- What the compiler is doing
-- How linking works
-- How static libraries are structured
-- How game loops update state
-- How collision checks are calculated
-- How file descriptors work
-- How UI layout is drawn manually
-- How data should move through a program
-
-That approach has helped me move between C, Raylib, Godot, JavaScript, and full-stack tools with a better understanding of what each layer is responsible for.
+I use prototypes as engineering tools, not merely unfinished products. A small project may exist to test a data structure, build process, interaction pattern, procedural system, or reusable component before that work moves into a larger application.
 
 ---
 
 ## Professional Background
 
-Before focusing heavily on programming projects, I worked in hospitatlity holding almost every role from bus boy/dishwasher to General Manager. I've also worked in technical support, implementation specialist, escalation management, and various customer service roles handling face-to-face interaction with customers.
+My background combines software development with technical support, implementation, escalation management, documentation, training, and approximately twenty years of hospitality experience.
 
-That experience gave me a strong foundation in:
+Hospitality and support work taught me to:
 
-- Troubleshooting
-- Customer communication
-- Training/Coaching staff
-- Documentation
-- Escalation handling
-- Process improvement
-- Explaining technical issues clearly
-- Working with both technical and non-technical users
+- Diagnose incomplete or conflicting information
+- Communicate with technical and non-technical users
+- Document repeatable processes
+- Manage urgent problems without losing sight of the underlying cause
+- Train people with different levels of experience
+- Balance technical decisions against budgets and operational constraints
 
-I try to bring that same clarity into my code, project structure, and documentation. I tend to over docment. 
+That experience now influences how I design interfaces, write documentation, structure support processes, and explain technical decisions.
 
 ---
 
-## Tools I Use
+## Development Philosophy
 
-- VS Code
-- Git/GitHub
-- Linux
-- WSL
-- MSYS2
-- GCC
-- Make
-- Raylib
-- Godot
-- Blender
-- Supabase
-- Prisma
-- Next.js
-- React
-- Tailwind CSS
+I believe understanding is part of the product.
+
+A system may work correctly and still be difficult to maintain, teach, support, or trust. I therefore place substantial emphasis on clear project structure, explicit behavior, useful documentation, and explanations that connect technical implementation to practical consequences.
+
+I use GitHub to document that process, preserve working experiments, develop reusable components, and show how individual programming exercises grow into larger systems.
 
 ---
 
-## GitHub Goals
+## Contact and Links
 
-I'm using GitHub to document my learning process, build a portfolio of practical programming projects, and keep improving how I structure, explain, and maintain software.
-
-My current goals are:
-
-- Keep improving my C fundamentals
-- Build more complete Raylib and Godot prototypes
-- Turn repeated code into reusable libraries
-- Write better READMEs and setup documentation
-- Practice clean Git workflows
-- Build projects that show clear progression over time
-
----
-
-## Contact
-
-- GitHub: [github.com/AnotherBudgetGamer](https://github.com/AnotherBudgetGamer)
-- Email: dllrdbrnt@gmail.com
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnotherBudgetGamer/AnotherBudgetGamer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnotherBudgetGamer/AnotherBudgetGamer/output/github-snake.svg" />
-  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/AnotherBudgetGamer/AnotherBudgetGamer/output/github-snake.svg" />
-</picture>
+- [Another Budget Cook](https://anotherbudgetcook.com)
+- [GitHub Repositories](https://github.com/AnotherBudgetGamer?tab=repositories)
+- **Bits & Bytes Bureau:** Website in development
